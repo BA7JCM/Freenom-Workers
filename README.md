@@ -48,24 +48,24 @@ SECRET_PASSWORD变量，填入Freenom密码
 在触发器界面，选择添加Cron触发器。在“添加Cron触发器”界面，设置触发器，保存。推荐执行时间为一天一次。
 
 
-# 测试
+## 测试
 
 （直接访问域名）访问刚刚部署的Workers服务的域名（一般URL为：服务名.设置子域.workers.dev)。顺利的话，你将看到你账户内所有域名的剩余日期。（workers.dev域名在中国内地污染严重，建议绑定一个自己的域名进行访问）。
 
 
 （触发Cron）进入“快速编辑”，选择“设定时间”，再选择“触发计划的事件”。查看下方Console是否有输出域名剩余日期。
 
-# 待实现的功能
+## 待实现的功能
 执行成功后，通过邮件送信/TelegramBot/DiscordBot发送执行结果。
 
 
-# 类似项目
+## 类似项目
 https://github.com/luolongfei/freenom (PHP)
 
 https://github.com/Oreomeow/freenom-py (Python)
 
 
-# LICENSE
+## LICENSE
 目前没有决定好用什么LICENSE.
 
 ![mona-loading](https://github.githubassets.com/images/mona-loading-dark.gif)
