@@ -85,7 +85,7 @@ async function renewDomains(domainInfo) {
             /Order Confirmation/i.test(html) ? '续期成功' : '续期失败'
          )
       } else {
-         console.log(`${domain} 还有 ${days} 天续期`)
+         console.log(`域名 ${domain} 还有 ${days} 天续期`)
       }
    }
 }
@@ -114,7 +114,7 @@ async function handleRequest() {
    const domainHtml = []
    for (const domain in domains) {
       const days = domains[domain].days
-      domainHtml.push(`<p>${domain} 还有 ${days} 天更新</p>`)
+      domainHtml.push(`<p>域名 ${domain} 还有 ${days} 天到期</p>`)
    }
    const html = `
    <!DOCTYPE html>

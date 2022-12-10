@@ -85,7 +85,7 @@ async function renewDomains(domainInfo) {
             /Order Confirmation/i.test(html) ? 'Renewal Success' : 'Renewal Failed'
          )
       } else {
-         console.log(`${domain} still has ${days} days until renewal.`)
+         console.log(`Domain ${domain} still has ${days} days until renewal.`)
       }
    }
 }
@@ -114,7 +114,7 @@ async function handleRequest() {
    const domainHtml = []
    for (const domain in domains) {
       const days = domains[domain].days
-      domainHtml.push(`<p>${domain} still has ${days} days until renewal</p>`)
+      domainHtml.push(`<p>Domain ${domain} still has ${days} days until renewal.</p>`)
    }
    const html = `
    <!DOCTYPE html>
