@@ -34,9 +34,9 @@ Go back to the Workers page you just created and select "Settings" and then "Var
 
 On the variables page, add the following variable name and value.
 
-"SECRET_USERNAME" with your Freenom username.
+ •"SECRET_USERNAME" with your Freenom username.
 
-"SECRET_PASSWORD" with your Freenom password.
+ •"SECRET_PASSWORD" with your Freenom password.
 
 
 (Optional) Select the Encryption option for both variables to reduce the probability of leakage for your Freenom username and password.
