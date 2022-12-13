@@ -34,9 +34,9 @@
 
 在变量页面，添加以下变量和变量值：
 
-SECRET_USERNAME变量，填入Freenom用户名
+- SECRET_USERNAME变量，填入Freenom用户名
 
-SECRET_PASSWORD变量，填入Freenom密码
+- SECRET_PASSWORD变量，填入Freenom密码
 
 
 （可选）勾选两个变量的“加密”选项（可极大程度降低Freenom用户名和密码泄露的概率）。
